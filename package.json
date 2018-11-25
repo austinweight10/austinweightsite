@@ -1,0 +1,41 @@
+{
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "animejs": "^2.2.0",
+    "basicscroll": "^3.0.0",
+    "bower": "^1.8.4",
+    "gatsby": "^2.0.19",
+    "gatsby-plugin-manifest": "^2.0.5",
+    "gatsby-plugin-offline": "^2.0.5",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "node-sass": "^4.9.3",
+    "react": "^16.5.1",
+    "react-accessible-accordion": "^2.4.5",
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0",
+    "three": "^0.97.0",
+    "three-effectcomposer": "0.0.1",
+    "three-obj-mtl-loader": "^1.0.3",
+    "threex.domevents": "^1.0.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  }
+}
