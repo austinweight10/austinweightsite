@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Projects from './projects'
-import Project from './Project'
+import Project from './project'
 
 class ProjectsController extends Component {
   constructor(props) {

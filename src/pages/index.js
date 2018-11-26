@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Layout from '../components/layout'
-import ProjectsController from '../components/ProjectsController'
+import ProjectsController from '../components/projectsController'
 import Weight from '../components/weight'
 import PageContainer from '../components/pageContainer'
 import BioText from '../components/bioText'

@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import Layout from '../components/layout'
-import ProjectsController from './ProjectsController'
 import * as THREE from 'three'
 import { MTLLoader, OBJLoader } from 'three-obj-mtl-loader'
-import * as basicScroll from 'basicscroll'
+import * as basicScroll from '../components/basicScroll'
 
 var angle = 0
 var radius = 4

@@ -8,6 +8,7 @@
     "basicscroll": "^3.0.0",
     "bower": "^1.8.4",
     "gatsby": "^2.0.19",
+    "gatsby-module-loader": "^1.0.11",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
