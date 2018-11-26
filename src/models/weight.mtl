@@ -1,0 +1,12 @@
+# Blender MTL File: 'fdsaasdf.blend'
+# Material Count: 1
+
+newmtl Cast_Iron_-_Red_Paint
+Ns 56.862745
+Ka 1.000000 1.000000 1.000000
+Kd 0.003128 0.024514 0.016753
+Ks 0.200484 0.281013 0.187172
+Ke 0.000626 0.004903 0.003351
+Ni 1.000000
+d 1.000000
+illum 2
