@@ -1,97 +1,99 @@
 .AW__projects_controller {
-    width: 90vw;
-    position: fixed;
-    overflow: scroll;
-    height: 100vh;
+  width: 90vw;
+  position: fixed;
+  overflow: scroll;
+  height: 100vh;
 }
 
 @media (min-width: 992px) {
-    .AW__projects_controller {
-        width: 80vw;
-    }
+  .AW__projects_controller {
+    width: 80vw;
+  }
 }
 
 .AW__projects {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  .grid__item {
     position: relative;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    .grid__item {
-        position: relative;
-        display: block;
-        flex: none;
-        margin: 20px;
-        cursor: default;
-        max-height: 380px;
-        width: calc(100% - 80px);
-        color: transparent;
-        cursor: pointer;
-        &:hover,
-        &:focus {
-            outline: none;
-            h3, p, span{
-                transition: 1s;
-                color: $darkGreen !important;
-                border-color: $darkGreen;
-            }
-        }
-        span {
-            display: block;
-            max-width: 76px; // dont change you probs dont heve the correct font
-        }
+    flex: none;
+    margin: 20px;
+    cursor: default;
+    max-height: 380px;
+    width: calc(100% - 80px);
+    color: transparent;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+      outline: none;
+      h3,
+      p,
+      span {
+        transition: 1s;
+        color: $darkGreen !important;
+        border-color: $darkGreen;
+      }
     }
+    span {
+      display: block;
+      max-width: 76px; // dont change you probs dont heve the correct font
+    }
+  }
 }
 
 @media (min-width: 992px) {
-    .grid {
-        justify-content: flex-end;
-        padding: 40px 20px 60px;
-        .grid__item {
-            width: calc(33.33333% - 40px);
-        }
-        .grid__item--c1 {
-            margin-top: 35%;
-        }
-        .grid__item--c2 {
-            margin-top: 0%;
-        }
-        .grid__item--c3 {
-            margin-top: 15%;
-        }
-        .grid__item--c4 {
-            margin-top: -31%;
-            margin-right: calc(33.3% + 20px) // comment out when enable next project
-        }
-        // .grid__item--c5 {
-        //     margin-top: -15%;
-        // }
+  .grid {
+    justify-content: flex-end;
+    padding: 40px 20px 60px;
+    .grid__item {
+      width: calc(33.33333% - 40px);
     }
+    .grid__item--c1 {
+      margin-top: 35%;
+    }
+    .grid__item--c2 {
+      margin-top: 0%;
+    }
+    .grid__item--c3 {
+      margin-top: 15%;
+    }
+    .grid__item--c4 {
+      margin-top: -31%;
+      margin-right: calc(33.3% + 20px); // comment out when enable next project
+    }
+    // .grid__item--c5 {
+    //     margin-top: -15%;
+    // }
+  }
 }
 
 @media (min-width: 1500px) {
-    .grid {
-        justify-content: flex-end;
-        padding: 40px 20px 60px;
-        .grid__item {
-            width: calc(33.33333% - 40px);
-        }
-        .grid__item--c1 {
-            margin-top: 25%;
-        }
-        .grid__item--c2 {
-            margin-top: 0%;
-        }
-        .grid__item--c3 {
-            margin-top: 7%;
-        }
-        .grid__item--c4 {
-            margin-top: -21%;
-        }
-        // .grid__item--c5 {
-        //     margin-top: -7%;
-        // }
+  .grid {
+    justify-content: flex-end;
+    padding: 40px 20px 60px;
+    .grid__item {
+      width: calc(33.33333% - 40px);
     }
+    .grid__item--c1 {
+      margin-top: 25%;
+    }
+    .grid__item--c2 {
+      margin-top: 0%;
+    }
+    .grid__item--c3 {
+      margin-top: 7%;
+    }
+    .grid__item--c4 {
+      margin-top: -21%;
+    }
+    // .grid__item--c5 {
+    //     margin-top: -7%;
+    // }
+  }
 }

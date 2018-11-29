@@ -90,6 +90,8 @@ const BioText = ({ click }) => (
               <span>WORDPRESSS</span>
               <span>MAGENTO</span>
               <span>MAGENTO 2</span>
+              <span>TENSORFLOW</span>
+              <span>d3.js</span>
               <span>SHELL SCRIPTING</span>
               <span>TESTING</span>
               <span>TDD</span>

@@ -1032,7 +1032,7 @@ canvas {
 }
 .AW__projects .grid__item {
   position: relative;
-  display: block;
+  display: flex;
   flex: none;
   margin: 20px;
   cursor: default;
@@ -1044,7 +1044,11 @@ canvas {
 .AW__projects .grid__item:hover, .AW__projects .grid__item:focus {
   outline: none;
 }
-.AW__projects .grid__item:hover h3, .AW__projects .grid__item:hover p, .AW__projects .grid__item:hover span, .AW__projects .grid__item:focus h3, .AW__projects .grid__item:focus p, .AW__projects .grid__item:focus span {
+.AW__projects .grid__item:hover h3,
+.AW__projects .grid__item:hover p,
+.AW__projects .grid__item:hover span, .AW__projects .grid__item:focus h3,
+.AW__projects .grid__item:focus p,
+.AW__projects .grid__item:focus span {
   transition: 1s;
   color: #125c40 !important;
   border-color: #125c40;

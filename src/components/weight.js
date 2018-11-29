@@ -751,15 +751,35 @@ class Weight extends Component {
         object.position.y = -0.5
         object.scale.set(0.4, 0.4, 0.4)
         self.scene.add(object)
-        document
-          .getElementById('AW__index__weight__Loader')
-          .classList.add('AW__index__weight__Loader__fade')
+        let elemLoader = document.getElementById('AW__index__weight__Loader')
+        if (elemLoader !== null) {
+          elemLoader.classList.add('AW__index__weight__Loader__fade')
+        }
+        // remove another background
         setTimeout(() => {
           let elem = document.getElementById('AW__index__weight__Loader')
-          elem.parentNode.removeChild(elem)
+          if (elem !== null) {
+            elem.parentNode.removeChild(elem)
+          }
+          // remove another background
         }, 300)
       })
     })
+
+    setTimeout(() => {
+      let elemLoader = document.getElementById('AW__index__weight__Loader')
+      if (elemLoader !== null) {
+        elemLoader.classList.add('AW__index__weight__Loader__fade')
+        // add another background
+      }
+      setTimeout(() => {
+        let elem = document.getElementById('AW__index__weight__Loader')
+        if (elem !== null) {
+          elem.parentNode.removeChild(elem)
+          // add another background
+        }
+      }, 300)
+    }, 5000)
 
     // var geometry = new THREE.CircleBufferGeometry( 0.14, 100 );
     // var material = new THREE.MeshBasicMaterial( { color: 0xe0efee, opacity: 0.7} );
